@@ -104,7 +104,7 @@ unzip -l attendance_tracker_demo_archive.zip
 The zip contains the partial project at the moment of interruption, e.g. `attendance_checker.py`, `Helpers/config.json` and an empty `reports/`, but no `assets.csv` if you interrupted before choosing a roster.
 
 ## How the deployed structure was tested
-
+Link to YouTube ( https://youtu.be/crIVaeG2uzw)
 - Deployed with Option A (3 students) and Option B (4 students); confirmed `Helpers/assets.csv` rows, `total_sessions` (5 and 1), and that the app starts and writes `reports/*.log`.
 - Confirmed `ls -l` shows `-rwxr-xr-x` for the script and `-rw-------` for `config.json`.
 - Changed thresholds to 80/60 and confirmed only those two lines changed and the app used the new values.
